@@ -313,7 +313,8 @@
   }
   function scoreLabel(v) {
     const p = v / MAX;
-    if (p >= 0.875) return 'Excellent 🏆';
+	if (p >= 0.95) return 'Champion 🏆';
+    if (p >= 0.875) return 'Excellent 👍';
     if (p >= 0.75) return 'On lâche pas 💪';
     return 'À retravailler 📚';
   }
